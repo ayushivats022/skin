@@ -1,4 +1,4 @@
-# Ayushi — Skincare
+# Ayuu — Skincare
 
 A minimal, aesthetic skincare brand site built with plain HTML, CSS, and vanilla JS — no build step, no frameworks.
 
