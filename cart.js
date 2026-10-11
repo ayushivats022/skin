@@ -1,5 +1,5 @@
 (function () {
-  var STORAGE_KEY = "ayushi-cart";
+  var STORAGE_KEY = "ayuu-cart";
 
   function formatINR(amount) {
     return "₹" + amount.toLocaleString("en-IN");
@@ -148,11 +148,11 @@
         var lines = cart.map(function (i) {
           return i.name + " x " + i.qty + " — " + formatINR(i.price * i.qty);
         });
-        var body = "Hi Ayushi,%0D%0A%0D%0AI'd like to order:%0D%0A%0D%0A" +
+        var body = "Hi Ayuu,%0D%0A%0D%0AI'd like to order:%0D%0A%0D%0A" +
           lines.join("%0D%0A") +
           "%0D%0A%0D%0ATotal: " + formatINR(cartTotal()) +
           "%0D%0A%0D%0AName:%0D%0AAddress:%0D%0APhone:";
-        window.location.href = "mailto:ayushivats022@gmail.com?subject=Ayushi%20Order&body=" + body;
+        window.location.href = "mailto:ayushivats022@gmail.com?subject=Ayuu%20Order&body=" + body;
       });
     }
   });
